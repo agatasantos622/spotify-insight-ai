@@ -58,8 +58,6 @@ spotify-etl/
 ## ▶️ Como executar o projeto
 
 ### 1. Instalar dependências
-
-```bash
 pip install pandas matplotlib seaborn streamlit
 2. Rodar o dashboard
 streamlit run dashboard_spotify.py
