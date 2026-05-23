@@ -91,6 +91,7 @@ Este projeto reforçou habilidades essenciais em:
 ## 🤝 Observação
 
 Projeto desenvolvido com apoio de IA (ChatGPT - OpenAI) para estruturação do pipeline, melhorias analíticas e design do dashboard.
+Desenvolvido durante o Bootcamp da DIO em parceria com a TOTVS – Fundamentos de Engenharia de Dados e Machine Learning
 
 ---
 
