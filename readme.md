@@ -1,35 +1,67 @@
-# 🎧 Spotify Insight AI
+# 🎧 Spotify Insight AI – Music Intelligence Platform
 
-Uma aplicação interativa de análise de dados musicais construída com Python e Streamlit, simulando um produto de **analytics estilo SaaS** para exploração de dados do Spotify.
+🔗 **Acesse o projeto online:**  
+https://agatasantos622-spotify-insight-ai-dashboard-spotify-upy0aw.streamlit.app/
 
 ---
 
-## 🚀 Demonstração
+## 🚀 Visão Geral
 
-O projeto permite explorar dados musicais com filtros interativos, visualizações e recomendações automáticas de músicas com base em popularidade e gênero.
+O **Spotify Insight AI** é uma aplicação interativa de análise de dados musicais construída com Python e Streamlit.
+
+O projeto simula uma plataforma de **Music Analytics estilo SaaS**, permitindo explorar padrões de popularidade, comportamento de gêneros e desempenho de artistas a partir de um dataset do Spotify.
+
+---
+
+## 🧠 Como o projeto foi construído (Storytelling)
+
+Este projeto foi desenvolvido do zero com foco em entender e aplicar o fluxo completo de **ETL (Extract, Transform, Load)** aplicado a dados reais de música.
+
+### 📌 1. Problema
+Dados musicais são ricos, mas pouco exploráveis de forma intuitiva. A ideia foi transformar esses dados em uma experiência interativa que ajudasse a entender tendências musicais.
+
+---
+
+### ⚙️ 2. Solução (Pipeline ETL)
+
+#### 🔹 Extract (Extração)
+- Utilização de um dataset CSV contendo músicas do Spotify
+- Leitura dos dados com Pandas
+
+#### 🔹 Transform (Transformação)
+- Limpeza e estruturação dos dados
+- Criação de métricas como:
+  - “hit” (músicas populares)
+  - média de popularidade
+  - filtros por gênero e popularidade
+- Agregações por artista e gênero
+- Sistema de recomendação baseado em popularidade
+
+#### 🔹 Load (Carregamento)
+- Construção de um dashboard interativo com Streamlit
+- Visualização de dados em gráficos e tabelas
+- Publicação do projeto na web
 
 ---
 
 ## 📊 Funcionalidades
 
-- 🎛 Filtros interativos por gênero e popularidade
+- 🎛 Filtros dinâmicos por gênero e popularidade
 - 📈 KPIs em tempo real (total de músicas, média de popularidade, taxa de hits)
 - 🎤 Top artistas por volume de músicas
 - 🎧 Distribuição de popularidade das músicas
-- 🎶 Visão de mercado por gênero musical
-- 🤖 Sistema de recomendação simples baseado em popularidade
+- 🎶 Análise de gêneros musicais
+- 🤖 Sistema de recomendação simples baseado em dados
 - 📋 Visualização completa do dataset filtrado
 
 ---
 
-## 🧠 Insights Gerados
+## 🌐 Resultado Final
 
-A aplicação permite responder perguntas como:
+O projeto foi publicado como uma aplicação web interativa utilizando **Streamlit Cloud**, permitindo acesso público como um produto real de dados.
 
-- Quais gêneros são mais populares?
-- Quais artistas dominam o catálogo?
-- Como a popularidade das músicas se distribui?
-- Quais músicas têm maior chance de serem hits?
+👉 Acesse aqui:  
+https://agatasantos622-spotify-insight-ai-dashboard-spotify-upy0aw.streamlit.app/
 
 ---
 
@@ -43,27 +75,27 @@ A aplicação permite responder perguntas como:
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🎯 Aprendizados
 
+Este projeto reforçou habilidades essenciais em:
 
-spotify-etl/
-│
-├── dashboard_spotify.py # Dashboard principal (Streamlit)
-├── spotify_tratado.csv # Base de dados tratada
-├── etl_spotify.py # Pipeline ETL (opcional)
-└── README.md # Documentação do projeto
+- Engenharia de dados básica (ETL)
+- Análise exploratória de dados (EDA)
+- Visualização de dados
+- Construção de dashboards interativos
+- Pensamento orientado a produto
+- Publicação de aplicações em ambiente cloud
 
 ---
 
-## ▶️ Como executar o projeto
+## 🤝 Observação
 
-### 1. Instalar dependências
-pip install pandas matplotlib seaborn streamlit
-2. Rodar o dashboard
-streamlit run dashboard_spotify.py
+Projeto desenvolvido com apoio de IA (ChatGPT - OpenAI) para estruturação do pipeline, melhorias analíticas e design do dashboard.
 
+---
 
-👨‍💻 Autor Ágata Oliveira
-Projeto desenvolvido com foco em portfólio de Data Science e análise de dados.
+## 👨‍💻 Autor
 
-🤝 Créditos: Este projeto foi desenvolvido com apoio de IA (ChatGPT - OpenAI) para estruturação, análise e design do dashboard.
+**Ágata Oliveira**
+
+Projeto de portfólio em Data Science e Analytics focado em construção de produtos de dados estilo SaaS.
